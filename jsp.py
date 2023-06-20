@@ -18,7 +18,7 @@ page = response.text
 soup = bs(page, features='lxml')
 
 #Get the text you want
-price = soup.find_all(class_="product__price")
+price = soup.find_all(class_="price text-xl barnd-color")
 
 #Put the bs4.element.ResultSet into a list
 a_list =[]
